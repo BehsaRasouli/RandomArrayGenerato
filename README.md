@@ -17,6 +17,7 @@ Prints results in a clean, readable format
 Beginner-friendly example
 
 📌 Code Example
+```csharp
 Random rnd = new Random();
 
 int[] array = new int[tedad];
@@ -25,7 +26,7 @@ for (int i = 0; i < array.Length; i++)
 {
     array[i] = rnd.Next(1, 101);
 }
-
+```
 ▶️ How It Works
 
 The user enters the number of elements.
@@ -37,17 +38,20 @@ Each element is filled using rnd.Next(1, 101).
 Output is printed, with a new line after every 10 values.
 
 📁 Project Structure
+```csharp
 RandomArrayGenerator/
  ├── Program.cs
  └── README.md
-
+```
 ▶️ How to Run
 Clone the repository:
-git clone https://github.com/yourusername/RandomArrayGenerator.git
-
+```csharp
+git clone https://github.com/BehsaRasouli/RandomArrayGenerator.git
+```
 Build and run:
+```csharp
 dotnet run
-
+```
 
 Or open the project using Visual Studio or Rider.
 
